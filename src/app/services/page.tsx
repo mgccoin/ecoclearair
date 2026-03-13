@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Explore Eco Clear Air's full range of professional services: air duct cleaning, dryer vent cleaning & repair, chimney sweep & repair, and specialty services. Serving Greater Boston & New England. Call (888) 274-1204.",
   alternates: {
-    canonical: "https://ecoclearair.com/services",
+    canonical: "https://ecoclearair1.com/services",
   },
   openGraph: {
     title: "Our Services | Eco Clear Air",
     description:
       "Air duct cleaning, dryer vent services, chimney sweep & repair, and specialty services across Greater Boston.",
-    url: "https://ecoclearair.com/services",
+    url: "https://ecoclearair1.com/services",
   },
 };
 

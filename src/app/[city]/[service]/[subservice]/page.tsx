@@ -35,7 +35,7 @@ export async function generateMetadata({
     title: `${subService.name} in ${city.name}, ${city.stateAbbr} | Eco Clear Air`,
     description: `Professional ${subService.name.toLowerCase()} in ${city.name}, ${city.stateAbbr}. ${subService.shortDescription} Serving ${city.neighborhoodKeywords.slice(0, 3).join(", ")} and all of ${city.areaDescription}. Call (888) 274-1204.`,
     alternates: {
-      canonical: `https://ecoclearair.com/${city.slug}/${service.slug}/${subService.slug}`,
+      canonical: `https://ecoclearair1.com/${city.slug}/${service.slug}/${subService.slug}`,
     },
   };
 }
@@ -64,16 +64,16 @@ export default async function CitySubServicePage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://ecoclearair.com/${city.slug}/${service.slug}/${subService.slug}`,
+    "@id": `https://ecoclearair1.com/${city.slug}/${service.slug}/${subService.slug}`,
     name: `${subService.name} in ${city.name}, ${city.stateAbbr}`,
     description: `${subService.description} Available in ${city.name}, ${city.stateAbbr}.`,
-    url: `https://ecoclearair.com/${city.slug}/${service.slug}/${subService.slug}`,
+    url: `https://ecoclearair1.com/${city.slug}/${service.slug}/${subService.slug}`,
     provider: {
       "@type": "LocalBusiness",
-      "@id": "https://ecoclearair.com",
+      "@id": "https://ecoclearair1.com",
       name: "Eco Clear Air",
       telephone: "+1-888-274-1204",
-      image: "https://ecoclearair.com/og-image.jpg",
+      image: "https://ecoclearair1.com/og-image.jpg",
       address: {
         "@type": "PostalAddress",
         streetAddress: "20 Guest St",

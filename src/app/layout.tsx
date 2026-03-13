@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ecoclearair.com"),
+  metadataBase: new URL("https://ecoclearair1.com"),
   title: {
     default:
       "Eco Clear Air | Air Duct Cleaning, Chimney Sweep & Dryer Vent Services in Boston",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ecoclearair.com",
+    url: "https://ecoclearair1.com",
     siteName: "Eco Clear Air",
     title:
       "Eco Clear Air | Air Duct Cleaning, Chimney Sweep & Dryer Vent Services in Boston",
@@ -75,21 +75,21 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://ecoclearair.com",
+    canonical: "https://ecoclearair1.com",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://ecoclearair.com",
+  "@id": "https://ecoclearair1.com",
   name: "Eco Clear Air",
   description:
     "Professional air duct cleaning, dryer vent services, and chimney sweep & repair in Greater Boston, South Shore, MetroWest, and New England.",
-  url: "https://ecoclearair.com",
+  url: "https://ecoclearair1.com",
   telephone: "+1-888-274-1204",
-  email: "info@ecoclearair.com",
-  image: "https://ecoclearair.com/og-image.jpg",
+  email: "info@ecoclearair1.com",
+  image: "https://ecoclearair1.com/og-image.jpg",
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",

@@ -40,12 +40,12 @@ export async function generateMetadata({
     title: `${subService.name} | ${service.name} | Eco Clear Air`,
     description,
     alternates: {
-      canonical: `https://ecoclearair.com/services/${service.slug}/${subService.slug}`,
+      canonical: `https://ecoclearair1.com/services/${service.slug}/${subService.slug}`,
     },
     openGraph: {
       title: `${subService.name} | ${service.name} | Eco Clear Air`,
       description: subService.shortDescription,
-      url: `https://ecoclearair.com/services/${service.slug}/${subService.slug}`,
+      url: `https://ecoclearair1.com/services/${service.slug}/${subService.slug}`,
       images: [{ url: service.image, alt: subService.name }],
     },
   };
@@ -66,14 +66,14 @@ export default async function SubServicePage({ params }: PageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://ecoclearair.com/services/${service.slug}/${subService.slug}/#service`,
+    "@id": `https://ecoclearair1.com/services/${service.slug}/${subService.slug}/#service`,
     name: subService.name,
     description: subService.description,
-    url: `https://ecoclearair.com/services/${service.slug}/${subService.slug}`,
-    image: `https://ecoclearair.com${service.image}`,
+    url: `https://ecoclearair1.com/services/${service.slug}/${subService.slug}`,
+    image: `https://ecoclearair1.com${service.image}`,
     provider: {
       "@type": "LocalBusiness",
-      "@id": "https://ecoclearair.com/#business",
+      "@id": "https://ecoclearair1.com/#business",
       name: "Eco Clear Air",
       telephone: "+1-888-274-1204",
       address: {

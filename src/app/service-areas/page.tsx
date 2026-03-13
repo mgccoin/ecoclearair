@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Eco Clear Air provides professional air duct cleaning, dryer vent services, and chimney sweep & repair across 40+ communities in Massachusetts, Rhode Island, and New Hampshire. Find your city and call (888) 274-1204.",
   alternates: {
-    canonical: "https://ecoclearair.com/service-areas",
+    canonical: "https://ecoclearair1.com/service-areas",
   },
 };
 

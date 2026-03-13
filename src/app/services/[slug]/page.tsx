@@ -30,12 +30,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${service.name} in Boston & Greater New England`,
     description: service.description,
     alternates: {
-      canonical: `https://ecoclearair.com/services/${service.slug}`,
+      canonical: `https://ecoclearair1.com/services/${service.slug}`,
     },
     openGraph: {
       title: `${service.name} | Eco Clear Air`,
       description: service.shortDescription,
-      url: `https://ecoclearair.com/services/${service.slug}`,
+      url: `https://ecoclearair1.com/services/${service.slug}`,
       images: [{ url: service.image, alt: service.name }],
     },
   };
@@ -205,14 +205,14 @@ export default async function ServicePage({ params }: PageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://ecoclearair.com/services/${service.slug}/#service`,
+    "@id": `https://ecoclearair1.com/services/${service.slug}/#service`,
     name: service.name,
     description: service.description,
-    url: `https://ecoclearair.com/services/${service.slug}`,
-    image: `https://ecoclearair.com${service.image}`,
+    url: `https://ecoclearair1.com/services/${service.slug}`,
+    image: `https://ecoclearair1.com${service.image}`,
     provider: {
       "@type": "LocalBusiness",
-      "@id": "https://ecoclearair.com/#business",
+      "@id": "https://ecoclearair1.com/#business",
       name: "Eco Clear Air",
       telephone: "+1-888-274-1204",
       address: {

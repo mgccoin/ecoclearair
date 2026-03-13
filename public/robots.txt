@@ -4,4 +4,4 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 
-Sitemap: https://ecoclearair.com/sitemap.xml
+Sitemap: https://ecoclearair1.com/sitemap.xml

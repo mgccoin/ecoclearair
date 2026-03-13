@@ -25,7 +25,7 @@ export async function generateMetadata({
     title: `${city.name} Air Duct Cleaning, Dryer Vent & Chimney Services`,
     description: `Professional air duct cleaning, dryer vent services, and chimney sweep & repair in ${city.name}, ${city.stateAbbr}. Serving ${city.neighborhoodKeywords.slice(0, 3).join(", ")} and more. Call (888) 274-1204 for a free estimate.`,
     alternates: {
-      canonical: `https://ecoclearair.com/${city.slug}`,
+      canonical: `https://ecoclearair1.com/${city.slug}`,
     },
   };
 }
@@ -69,12 +69,12 @@ export default async function CityPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": `https://ecoclearair.com/${city.slug}`,
+    "@id": `https://ecoclearair1.com/${city.slug}`,
     name: "Eco Clear Air",
     description: `Professional air duct cleaning, dryer vent services, and chimney sweep & repair in ${city.name}, ${city.stateAbbr}.`,
-    url: `https://ecoclearair.com/${city.slug}`,
+    url: `https://ecoclearair1.com/${city.slug}`,
     telephone: "+1-888-274-1204",
-    image: "https://ecoclearair.com/og-image.jpg",
+    image: "https://ecoclearair1.com/og-image.jpg",
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",
@@ -101,7 +101,7 @@ export default async function CityPage({
           "@type": "Service",
           name: service.name,
           description: service.shortDescription,
-          url: `https://ecoclearair.com/${city.slug}/${service.slug}`,
+          url: `https://ecoclearair1.com/${city.slug}/${service.slug}`,
         },
       })),
     },

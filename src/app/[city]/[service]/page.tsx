@@ -32,7 +32,7 @@ export async function generateMetadata({
     title: `${service.name} in ${city.name}, ${city.stateAbbr}`,
     description: `Professional ${service.name.toLowerCase()} in ${city.name}, ${city.stateAbbr}. ${service.shortDescription} Serving ${city.neighborhoodKeywords.slice(0, 3).join(", ")} and all of ${city.areaDescription}. Call (888) 274-1204.`,
     alternates: {
-      canonical: `https://ecoclearair.com/${city.slug}/${service.slug}`,
+      canonical: `https://ecoclearair1.com/${city.slug}/${service.slug}`,
     },
   };
 }
@@ -68,16 +68,16 @@ export default async function CityServicePage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://ecoclearair.com/${city.slug}/${service.slug}`,
+    "@id": `https://ecoclearair1.com/${city.slug}/${service.slug}`,
     name: `${service.name} in ${city.name}, ${city.stateAbbr}`,
     description: `${service.description} Available in ${city.name}, ${city.stateAbbr}.`,
-    url: `https://ecoclearair.com/${city.slug}/${service.slug}`,
+    url: `https://ecoclearair1.com/${city.slug}/${service.slug}`,
     provider: {
       "@type": "LocalBusiness",
-      "@id": "https://ecoclearair.com",
+      "@id": "https://ecoclearair1.com",
       name: "Eco Clear Air",
       telephone: "+1-888-274-1204",
-      image: "https://ecoclearair.com/og-image.jpg",
+      image: "https://ecoclearair1.com/og-image.jpg",
       address: {
         "@type": "PostalAddress",
         streetAddress: "20 Guest St",

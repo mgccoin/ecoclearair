@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "senior discount air duct cleaning",
     "military discount chimney sweep",
   ],
-  alternates: { canonical: "https://ecoclearair.com/coupons" },
+  alternates: { canonical: "https://ecoclearair1.com/coupons" },
 };
 
 export default function CouponsPage() {

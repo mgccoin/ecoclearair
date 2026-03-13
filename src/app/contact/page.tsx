@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "HVAC cleaning estimate",
     "dryer vent cleaning appointment",
   ],
-  alternates: { canonical: "https://ecoclearair.com/contact" },
+  alternates: { canonical: "https://ecoclearair1.com/contact" },
 };
 
 const jsonLd = {
@@ -23,7 +23,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     name: "Eco Clear Air",
     telephone: "+1-888-274-1204",
-    email: "info@ecoclearair.com",
+    email: "info@ecoclearair1.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "20 Guest St",
@@ -80,7 +80,7 @@ export default function ContactPage() {
 
             {/* Email */}
             <a
-              href="mailto:info@ecoclearair.com"
+              href="mailto:info@ecoclearair1.com"
               className="group flex flex-col items-center text-center bg-blue-50 border-2 border-blue-200 rounded-2xl p-8 transition-all hover:shadow-xl hover:-translate-y-1 hover:border-blue-400"
             >
               <div className="w-16 h-16 bg-brand-blue text-white rounded-2xl flex items-center justify-center mb-5 transition-transform group-hover:scale-110">
@@ -89,7 +89,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Email Us</h2>
-              <p className="text-lg font-bold text-brand-blue mb-2">info@ecoclearair.com</p>
+              <p className="text-lg font-bold text-brand-blue mb-2">info@ecoclearair1.com</p>
               <p className="text-sm text-gray-600">We respond within 24 hours</p>
             </a>
 
@@ -236,7 +236,7 @@ export default function ContactPage() {
               (888) 274-1204
             </a>
             <a
-              href="mailto:info@ecoclearair.com"
+              href="mailto:info@ecoclearair1.com"
               className="inline-flex items-center gap-2 rounded-full border-2 border-white px-8 py-4 text-lg font-bold text-white transition-all hover:bg-white/10"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

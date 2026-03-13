@@ -12,32 +12,32 @@ export const metadata: Metadata = {
   description:
     "Boston's most trusted air duct cleaning, dryer vent cleaning, and chimney sweep & repair company. Eco-friendly service for Greater Boston, South Shore, MetroWest & New England. Call (888) 274-1204 for a free estimate.",
   alternates: {
-    canonical: "https://ecoclearair.com",
+    canonical: "https://ecoclearair1.com",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://ecoclearair.com/#webpage",
-  url: "https://ecoclearair.com",
+  "@id": "https://ecoclearair1.com/#webpage",
+  url: "https://ecoclearair1.com",
   name: "Eco Clear Air | #1 Air Duct Cleaning & Chimney Sweep in Boston, MA",
   description:
     "Boston's most trusted air duct cleaning, dryer vent cleaning, and chimney sweep & repair company. Eco-friendly service for Greater Boston, South Shore, MetroWest & New England.",
   isPartOf: {
     "@type": "WebSite",
-    "@id": "https://ecoclearair.com/#website",
-    url: "https://ecoclearair.com",
+    "@id": "https://ecoclearair1.com/#website",
+    url: "https://ecoclearair1.com",
     name: "Eco Clear Air",
   },
   about: {
     "@type": "LocalBusiness",
-    "@id": "https://ecoclearair.com/#business",
+    "@id": "https://ecoclearair1.com/#business",
     name: "Eco Clear Air",
   },
   primaryImageOfPage: {
     "@type": "ImageObject",
-    url: "https://ecoclearair.com/og-image.jpg",
+    url: "https://ecoclearair1.com/og-image.jpg",
   },
 };
 
