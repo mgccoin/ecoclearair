@@ -75,7 +75,7 @@ export default function ContactPage() {
               </div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Call Us</h2>
               <p className="text-2xl font-extrabold text-brand-green mb-2">(888) 274-1204</p>
-              <p className="text-sm text-gray-600">Mon–Fri: 8AM–6PM &bull; Sat: 9AM–4PM</p>
+              <p className="text-sm text-gray-600">Sun–Fri: 7AM–7PM &bull; Sat: Closed</p>
             </a>
 
             {/* Email */}
@@ -132,13 +132,13 @@ export default function ContactPage() {
               <h2 className="text-2xl font-extrabold text-gray-900 mb-6">Business Hours</h2>
               <div className="space-y-4">
                 {[
-                  { day: "Monday", hours: "8:00 AM – 6:00 PM" },
-                  { day: "Tuesday", hours: "8:00 AM – 6:00 PM" },
-                  { day: "Wednesday", hours: "8:00 AM – 6:00 PM" },
-                  { day: "Thursday", hours: "8:00 AM – 6:00 PM" },
-                  { day: "Friday", hours: "8:00 AM – 6:00 PM" },
-                  { day: "Saturday", hours: "9:00 AM – 4:00 PM" },
-                  { day: "Sunday", hours: "Closed" },
+                  { day: "Sunday", hours: "7:00 AM – 7:00 PM" },
+                  { day: "Monday", hours: "7:00 AM – 7:00 PM" },
+                  { day: "Tuesday", hours: "7:00 AM – 7:00 PM" },
+                  { day: "Wednesday", hours: "7:00 AM – 7:00 PM" },
+                  { day: "Thursday", hours: "7:00 AM – 7:00 PM" },
+                  { day: "Friday", hours: "7:00 AM – 7:00 PM" },
+                  { day: "Saturday", hours: "Closed" },
                 ].map((item) => (
                   <div key={item.day} className="flex items-center justify-between py-2 border-b border-gray-100 last:border-0">
                     <span className="font-medium text-gray-700">{item.day}</span>
